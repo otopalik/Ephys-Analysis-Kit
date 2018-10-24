@@ -9,7 +9,9 @@
 % row is a membrane potential time series); Note: it is possible to produce
 % a "supersubplot" of all individaul evoked traces in this script (it's
 % commented out because it is a slow task). One can also view individaul
-% traces by plotting each row of the traces matrix.
+% traces by plotting each row of the traces matrix.  Importantly: you must
+% unzip file AGO_044_0008.abf before running this function (was too large
+% to upload to github without compressing).
 
 [traces_8] = browse_responses_v4('AGO_044_0008.abf', -80, -30, 'individual');
 
